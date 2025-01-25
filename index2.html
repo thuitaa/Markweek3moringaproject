@@ -5,6 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan Name Generator Pg 2</title>
         <link rel="stylesheet" href="style.css">
+        <style>
+            body{
+                background-color: silver;
+                margin: 0 auto;
+                padding: 20px;
+                font-family: Roboto;
+            }
+            fieldset{
+                border: 3px solid;
+                border-radius: 10px;
+                max-width: 600px;
+                background-color: beige;
+                padding: 20px 30px;
+                height: 50vh;
+                display: flex;
+                justify-content: space-around;
+                
+            }
+            legend{
+                text-align: center;
+                font-weight: 700;
+                text-decoration: underline;
+            }
+            input[type="text"],
+            input[type="date"]{
+                border-radius: 5px;
+                border: 2px solid rgb(143, 142, 142);
+                padding: 20px 25px;
+
+            }
+        </style>
 </head>
 
 <body class="index2.html">
@@ -16,10 +47,11 @@
 
         <p>Select your gender</p>
             <label for="Gender">Female</label>
-            <input type="radio" name="gender" id="female"><br>
+            <input type="radio" name="gender" id="female">
 
             <label for="Gender">Male</label>
-            <input type="radio" name="gender" id="male"><br>
+            <input type="radio" name="gender" id="male">
+            <br><br>
 
 
             <label for="date-of-birth">Enter your birth-date</label>
