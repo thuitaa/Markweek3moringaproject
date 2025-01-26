@@ -12,6 +12,10 @@ The generator of this program is Mark Kihara, an aspiring systems developer curr
 ***
 ## Technologies used
 This website made use of html and css styling as well as Javascript to compile the eventual day of the week and the Akan Names.
+***
+## Link to my live site
+Click on the following link to access my website:
+ https://thuitaa.github.io/Markweek3moringaproject/
 
 
 ###  @thuitastudioske Copyright 2025. All rights reserved
