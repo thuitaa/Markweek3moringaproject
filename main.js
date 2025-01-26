@@ -20,10 +20,10 @@ document.getElementById("akan-name").addEventListener("submit", function (event)
     const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
     let akanName;
-    if (gender === "male"){
+    if (gender === "male");{
         akanName = maleNames[dayOfWeek];
     }
-    elseif (gender === "female") {
+    elseif (gender === "female"); {
         akanName = femaleNames[dayOfWeek];
     }
 
