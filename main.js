@@ -11,3 +11,6 @@ document.getElementById("akan-name").addEventListener("submit", function (event)
         alert("Please fill in all the spaces before submitting")
         return;
     }
+// to obtain the day of the week
+    const date = new date(birthDate);
+    const dayOfWeek = date.getDay(); // Sunday = 0, Monday = 1, ...
