@@ -52,6 +52,17 @@
                 cursor: pointer;
                 transition: 0.3s ease-in-out;
             }
+            a {
+            text-decoration: none;
+            font-family: Roboto;
+            font-weight: 600;
+            transition: color 0.3s ease-in-out;
+            color: black;
+        }
+        a:hover{
+            color: rgb(240, 140, 8);
+            transform: scale(1.2);
+        }
         </style>
 </head>
 
@@ -72,11 +83,13 @@
 
 
             <label for="date-of-birth">Enter your birth-date</label>
-            <input type="date" name="date" id="date of birth" required><br>
+            <input type="date" name="date" id="date-of-birth" required><br>
 
-            <button>Submit</button>
+            <button type="submit">Submit</button>
         </form>
+
 <script src="main.js"></script>
     </fieldset>
+    <a href="index.html" class="gotopreviouspage">Go to previous page</a>
 </body>
 </html>
